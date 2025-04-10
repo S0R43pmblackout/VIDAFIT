@@ -1,0 +1,46 @@
+:root {
+	--color_base:#fff;
+	--color_primary:#3a4752;
+	--color_secondary:#333;
+	--color_red:red;
+	--color_border:#ddd;
+	--color_input:#f2f2f2;
+	--color_btn:#388e3c;
+	--color_btn_hover:#2bac31;
+	--color_green:#d9ead3;
+	--color_yellow:#fff2cc;
+	--color_dark:#f3f3f3;
+	--color_comments_priamry:#9faeb5;
+	--color_comments_secondary:#eeee;
+	--color_comments_text:#414141;
+	--color_comments_hover:#5f95ad
+ }
+ 
+ .order {
+	position:relative!important;
+	min-width:270px!important;
+  margin:0 auto!important;
+	padding:10px!important;
+	border-radius:2.5px!important
+ }
+ .order__header {
+	display:flex!important;
+	flex-flow:column!important;
+	gap:20px!important;
+	margin-bottom:30px!important;
+	font-size:18px!important;
+	font-weight:700!important;
+	text-align:center!important;
+	-webkit-box-direction:normal!important;
+	-webkit-box-orient:vertical!important
+ }
+ .order__input:focus-visible {
+	outline:none!important;
+	outline-offset:0!important
+ }
+ @media all and (min-width:475px) {
+	.order__header {
+	  font-size:22px!important
+	}
+ }
+ 
